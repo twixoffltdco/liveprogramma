@@ -39259,3 +39259,52 @@
 [20:47:23]   ✅ embed.html
 [20:47:23]   ✅ player.html
 [20:47:23] ✅ docs/ собран
+[04:03:36] 🤖 Запуск EPG-робота v3 (Node.js)...
+[04:03:36] 📂 Загружен реестр каналов: 25 каналов
+[04:03:36] 📡 Шаг 1: реальные XMLTV-агрегаторы...
+[04:03:36]   → XMLTV: https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz
+[04:03:41] ⚠️  https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz: Cannot create a string longer than 0x1fffffe8 characters
+[04:03:41]   → XMLTV: https://raw.githubusercontent.com/Free-TV/IPTV/master/epg.xml
+[04:03:41] ⚠️  https://raw.githubusercontent.com/Free-TV/IPTV/master/epg.xml: HTTP 404 для https://raw.githubusercontent.com/Free-TV/IPTV/master/epg.xml
+[04:03:41]   → XMLTV: https://iptv-org.github.io/epg/guides/ru.xml
+[04:03:41] ⚠️  https://iptv-org.github.io/epg/guides/ru.xml: HTTP 404 для https://iptv-org.github.io/epg/guides/ru.xml
+[04:03:41] ⚠️  Ни один публичный XMLTV-источник не ответил в этот раз
+[04:03:41] 🔍 Шаг 2: веб-поиск расписания для 25 каналов без данных...
+[04:03:43]   ✅ Первый канал: 34 передач со страницы programma-peredach.com
+[04:03:45]   ✅ Россия 1: 27 передач со страницы programma-peredach.com
+[04:03:47]   ✅ НТВ: 27 передач со страницы programma-peredach.com
+[04:03:49]   ✅ СТС: 22 передач со страницы programma-peredach.com
+[04:03:51]   ✅ РЕН ТВ: 29 передач со страницы programma-peredach.com
+[04:03:53]   ✅ ТНТ: 40 передач со страницы programma-peredach.com
+[04:03:55]   ✅ Пятый канал: 36 передач со страницы programma-peredach.com
+[04:03:58]   ✅ ТВ Центр: 31 передач со страницы programma-peredach.com
+[04:04:00]   ✅ ОТР: 40 передач со страницы programma-peredach.com
+[04:04:02]   ✅ Звезда: 32 передач со страницы programma-peredach.com
+[04:04:03]   ✅ ТВ-3: 38 передач со страницы programma-peredach.com
+[04:04:05]   ✅ Суббота!: 28 передач со страницы programma-peredach.com
+[04:04:07]   ✅ Дом Кино: 14 передач со страницы programma-peredach.com
+[04:04:09]   ✅ Карусель: 28 передач со страницы programma-peredach.com
+[04:04:11]   ✅ Наука: 54 передач со страницы programma-peredach.com
+[04:04:14]   ✅ МУЗ-ТВ: 27 передач со страницы tv.yandex.ru
+[04:04:17]   ✅ Матч! ТВ: 28 передач со страницы programma-peredach.com
+[04:04:19]   ✅ Россия 24: 76 передач со страницы programma-peredach.com
+[04:04:21]   ✅ Домашний: 24 передач со страницы programma-peredach.com
+[04:04:22]   ✅ Пятница!: 23 передач со страницы programma-peredach.com
+[04:04:24]   ✅ Россия Культура: 37 передач со страницы programma-peredach.com
+[04:04:26]   ✅ ТНТ4: 34 передач со страницы programma-peredach.com
+[04:04:30]   ✅ 2x2: 23 передач со страницы programma-peredach.com
+[04:04:32]   ✅ Мир: 30 передач со страницы programma-peredach.com
+[04:04:34]   ✅ Спас: 39 передач со страницы programma-peredach.com
+[04:04:34] 📺 Шаг 3 (резерв): Яндекс.ТВ API для 0 каналов без расписания...
+[04:04:35] ⚠️  Яндекс.ТВ каталог недоступен: HTTP 404 для https://tv.yandex.ru/ajax/i-tv-region/get?resource=schedule&params=%7B%22channelLimit%22%3A1000%2C%22channelProgramsLimit%22%3A1%2C%22fields%22%3A%22schedules%2Cchannel%2Ctitle%2CsiteUrl%2Clogo%2CoriginalSize%2Csrc%2Cid%2Csynonyms%22%7D
+[04:04:35] 🎬 Шаг 4: загрузка m3u8-плейлистов...
+[04:04:35]   📺 Плейлист https://raw.githubusercontent.com/OinkTechLtd/rulive/main/russ.m3u: 12 записей
+[04:04:35]   📡 Привязано 0 реальных потоков
+[04:04:35] 💾 Реестр каналов сохранён: 25 каналов
+[04:04:35] ✅ Итого: 25 каналов в реестре, 25 с реальным расписанием (752 передач), 59.2с
+[01:04:35] 📊 schedule.json: 25 каналов, 752 передач
+[01:04:35] 🏗️  Собираем docs/...
+[01:04:35]   ✅ index.html
+[01:04:35]   ✅ embed.html
+[01:04:35]   ✅ player.html
+[01:04:35] ✅ docs/ собран
