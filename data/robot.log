@@ -40924,3 +40924,51 @@
 [19:45:16]   ✅ embed.html
 [19:45:16]   ✅ player.html
 [19:45:16] ✅ docs/ собран
+[03:47:24] 🤖 Запуск EPG-робота v3 (Node.js)...
+[03:47:24] 📂 Загружен реестр каналов: 25 каналов
+[03:47:24] 📡 Шаг 1: реальные XMLTV-агрегаторы...
+[03:47:24]   → XMLTV: https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz
+[03:47:29] ⚠️  https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz: Cannot create a string longer than 0x1fffffe8 characters
+[03:47:29]   → XMLTV: https://raw.githubusercontent.com/Free-TV/IPTV/master/epg.xml
+[03:47:29] ⚠️  https://raw.githubusercontent.com/Free-TV/IPTV/master/epg.xml: HTTP 404 для https://raw.githubusercontent.com/Free-TV/IPTV/master/epg.xml
+[03:47:29]   → XMLTV: https://iptv-org.github.io/epg/guides/ru.xml
+[03:47:29] ⚠️  https://iptv-org.github.io/epg/guides/ru.xml: HTTP 404 для https://iptv-org.github.io/epg/guides/ru.xml
+[03:47:29] ⚠️  Ни один публичный XMLTV-источник не ответил в этот раз
+[03:47:29] 🔍 Шаг 2: веб-поиск расписания для 25 каналов без данных...
+[03:47:31]   ✅ Первый канал: 30 передач со страницы programma-peredach.com
+[03:47:32]   ✅ Россия 1: 27 передач со страницы programma-peredach.com
+[03:47:43]   ✅ СТС: 21 передач со страницы programma-peredach.com
+[03:47:45]   ✅ РЕН ТВ: 26 передач со страницы programma-peredach.com
+[03:47:46]   ✅ ТНТ: 19 передач со страницы programma-peredach.com
+[03:47:47] ⚠️  webSearch: ни один backend не дал результатов для "Пятый канал программа передач сегодня"
+[03:47:48] ⚠️  webSearch: ни один backend не дал результатов для "ТВ Центр программа передач сегодня"
+[03:47:48] ⚠️  webSearch: ни один backend не дал результатов для "ОТР программа передач сегодня"
+[03:47:48] ⚠️  webSearch: ни один backend не дал результатов для "Звезда программа передач сегодня"
+[03:47:49] ⚠️  webSearch: ни один backend не дал результатов для "ТВ-3 программа передач сегодня"
+[03:47:49] ⚠️  webSearch: ни один backend не дал результатов для "Суббота! программа передач сегодня"
+[03:47:49] ⚠️  webSearch: ни один backend не дал результатов для "Дом Кино программа передач сегодня"
+[03:47:50] ⚠️  webSearch: ни один backend не дал результатов для "Карусель программа передач сегодня"
+[03:47:50] ⚠️  webSearch: ни один backend не дал результатов для "Наука программа передач сегодня"
+[03:47:50] ⚠️  webSearch: ни один backend не дал результатов для "МУЗ-ТВ программа передач сегодня"
+[03:47:50] ⚠️  webSearch: ни один backend не дал результатов для "Матч! ТВ программа передач сегодня"
+[03:47:51] ⚠️  webSearch: ни один backend не дал результатов для "Россия 24 программа передач сегодня"
+[03:47:51] ⚠️  webSearch: ни один backend не дал результатов для "Домашний программа передач сегодня"
+[03:47:51] ⚠️  webSearch: ни один backend не дал результатов для "Пятница! программа передач сегодня"
+[03:47:52] ⚠️  webSearch: ни один backend не дал результатов для "Россия Культура программа передач сегодня"
+[03:47:52] ⚠️  webSearch: ни один backend не дал результатов для "ТНТ4 программа передач сегодня"
+[03:47:53] ⚠️  webSearch: ни один backend не дал результатов для "2x2 программа передач сегодня"
+[03:47:53] ⚠️  webSearch: ни один backend не дал результатов для "Мир программа передач сегодня"
+[03:47:53] ⚠️  webSearch: ни один backend не дал результатов для "Спас программа передач сегодня"
+[03:47:53] 📺 Шаг 3 (резерв): Яндекс.ТВ API для 20 каналов без расписания...
+[03:47:54] ⚠️  Яндекс.ТВ каталог недоступен: HTTP 404 для https://tv.yandex.ru/ajax/i-tv-region/get?resource=schedule&params=%7B%22channelLimit%22%3A1000%2C%22channelProgramsLimit%22%3A1%2C%22fields%22%3A%22schedules%2Cchannel%2Ctitle%2CsiteUrl%2Clogo%2CoriginalSize%2Csrc%2Cid%2Csynonyms%22%7D
+[03:47:54] 🎬 Шаг 4: загрузка m3u8-плейлистов...
+[03:47:55]   📺 Плейлист https://raw.githubusercontent.com/OinkTechLtd/rulive/main/russ.m3u: 12 записей
+[03:47:55]   📡 Привязано 0 реальных потоков
+[03:47:55] 💾 Реестр каналов сохранён: 25 каналов
+[03:47:55] ✅ Итого: 25 каналов в реестре, 5 с реальным расписанием (120 передач), 31.2с
+[00:47:56] 📊 schedule.json: 25 каналов, 120 передач
+[00:47:56] 🏗️  Собираем docs/...
+[00:47:56]   ✅ index.html
+[00:47:56]   ✅ embed.html
+[00:47:56]   ✅ player.html
+[00:47:56] ✅ docs/ собран
